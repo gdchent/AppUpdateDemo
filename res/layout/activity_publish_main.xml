@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.PublishMainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_single_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="安卓获取单个权限测试"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_multice_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="安卓获取多个权限测试"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_download_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机下载APK并且安装"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+</LinearLayout>
